@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RODOMAN Token</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #eef7ee;
+        }
+        .hero img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .hero h1 {
+            margin: 20px 0;
+            font-size: 2.5rem;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RODOMAN Token (RODO)</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <img src="https://via.placeholder.com/150" alt="RODO Logo">
+        <h1>Welcome to the World of RODOMAN</h1>
+        <p>The innovative cryptocurrency with staking, referral rewards, and burn mechanisms.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About RODOMAN</h2>
+        <p>RODOMAN (RODO) is a next-generation cryptocurrency designed for sustainability and rewards. With a 1% burn rate and a 5% annual staking reward, we aim to create a token that benefits both holders and the community.</p>
+    </div>
+
+    <div id="features" class="section">
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Burn Mechanism:</strong> 1% of each transaction is burned, reducing supply over time.</li>
+            <li><strong>Staking Rewards:</strong> Earn 5% annual rewards by staking your tokens.</li>
+            <li><strong>Referral System:</strong> Invite others and earn rewards for growing the RODOMAN community.</li>
+        </ul>
+    </div>
+
+    <div id="roadmap" class="section">
+        <h2>Roadmap</h2>
+        <p><strong>Q1 2024:</strong> Token launch and initial distribution.</p>
+        <p><strong>Q2 2024:</strong> Staking and referral systems live.</p>
+        <p><strong>Q3 2024:</strong> Listing on major cryptocurrency exchanges.</p>
+        <p><strong>Q4 2024:</strong> Integration with decentralized finance (DeFi) platforms.</p>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:support@rodoman.com">support@rodoman.com</a></p>
+        <p>Follow us on social media for updates:</p>
+        <ul>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Discord</a></li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 RODOMAN Token. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
